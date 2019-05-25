@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.samsung.kedaiku.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ef9bca"
+        android:orientation="vertical" >
+
+        <TextView
+            android:text="KEDAI KU"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#f0f1f5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAlignment="center"
+            android:background="#303F9F" />
+
+        <TextView
+            android:text="Ice Cream"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:textAlignment="center"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/ic"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:text="The Best Ice Cream in The World
+Since 1998.
+    Made by Original Milk, With Fantastic Flavour !!! "
+            android:textSize="17sp"
+            android:textStyle="italic"
+            android:textColor="#a70b15"
+            android:textAlignment="center"
+            android:background="#ef9bca"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:text="Chocolate = 10k \nStrawberry = 10k \nVanilla = 15k \nMocca = 15k
+"
+            android:textColor="#a70b15"
+            android:textAlignment="center"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/loc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_place_black_24dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Jalan Raya Cimekar No.52 Bandung"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="12sp"
+                android:layout_toRightOf="@+id/loc"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_access_time_black_24dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="17dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="9am - 10pm"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="15sp"
+                android:layout_marginTop="8dp"
+                android:layout_toRightOf="@+id/time"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_phone_black_24dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="17dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="083820054837"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="15sp"
+                android:layout_marginTop="8dp"
+                android:layout_toRightOf="@+id/phone"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_email_black_24dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="17dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="haisillaicecream@gmail.com"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="15sp"
+                android:layout_marginTop="8dp"
+                android:layout_toRightOf="@+id/phone"
+                />
+        </LinearLayout>
+
+        <Button
+            android:layout_marginTop="100dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pesan Menu"
+            android:onClick="pesanMakanan"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Thank You !!! "
+            android:textSize="25sp"
+            android:textAlignment="center"
+            android:layout_marginTop="80dp"
+            android:textStyle="bold"
+            android:textColor="#a70b15"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="======================== "
+            android:textSize="25sp"
+            android:textAlignment="center"
+            android:layout_marginTop="30dp"
+            android:textStyle="bold"
+            android:textColor="#a70b15"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="jj
+            f
+            f
+            f
+            "
+            android:textColor="#ef9bca"/>
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
+

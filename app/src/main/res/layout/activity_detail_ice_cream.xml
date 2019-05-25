@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#ef9bca"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/et_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Input Nama Anda"/>
+
+    <CheckBox
+        android:id="@+id/cb_chocolate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chocolate"/>
+
+    <CheckBox
+        android:id="@+id/cb_strawberry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Strawberry"/>
+
+    <CheckBox
+        android:id="@+id/cb_vanilla"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vanilla"/>
+
+    <CheckBox
+        android:id="@+id/cb_mocca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mocca"/>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Banyak Pesanan"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:onClick="kurangClick"/>
+
+        <TextView
+            android:id="@+id/tv_banyakPesanan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:onClick="tambahClick"/>
+
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pesan"
+        android:onClick="pesanClick"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Detail Pesanan"/>
+
+    <TextView
+        android:id="@+id/tv_detailPesanan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
+
+
+
+
